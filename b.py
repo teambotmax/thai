@@ -26,14 +26,13 @@ from urllib.parse import urlencode
 #==============================================================================#
 botStart = time.time()
 #================EvVcY4Nk9hKiJZYdRMW3.TAVOkm2wqPizxdXz1JiGmW.4QUmFeBLiOjPKtdV7+ddmEw6IuVk/aIHke+OWKLmu/Q===============================================================#
-#line = LINE()
-line = LINE("baslovejoy2561@gmail.com","bas034287930")
+line = LINE()
 #line = LINE('')
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
 
-print ("─┅❈͜͡✯ʙᴀsʙᴏᴛʟɪɴᴇ✯͜͡❈┅─")
+print ("BY: SELFBOT-BY:MAX")
 
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
