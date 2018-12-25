@@ -502,7 +502,7 @@ def sendMessageWithMention(to, lineMID):
 
 def myhelp():
     myHelp = """╭─「SELFBOT-BY:MAX」─
-│•      HELP
+│•               HELP
 ╰───────────
 ╭───────────
 │• 01. help
@@ -526,7 +526,7 @@ def myhelp():
         
 def myhelp2():
     myHelp2 = """╭─「SELFBOT-BY:MAX」─
-│•      HELP2
+│•               HELP
 ╰───────────
 ╭───────────
 │• 01. เช็ค「เช็คกาตรั้งค่าเซลบอท」
@@ -575,7 +575,7 @@ def myhelp2():
 
 def listgrup():
     listGrup = """╭─「SELFBOT-BY:MAX」─
-│•      GROUP
+│•               GROUP
 ╰───────────
 ╭───────────
 │• 01. แอด
@@ -626,14 +626,14 @@ def listgrup():
 ╰───────────
 ╭───────────
 │• BY: SELFBOT-BY:MAX
-│• line/ti/p/~maxsett
+│• line.me/ti/p/~maxsett
 ╰───────────
 """
     return listGrup
 
 def socmedia():
     socMedia = """╭─「SELFBOT-BY:MAX」─
-│•      MEDIA
+│•               MEDIA
 ╰───────────
 ╭───────────
 │• 01. ปฏิทิน
@@ -656,13 +656,13 @@ def socmedia():
 ╰───────────
 ╭───────────
 │• BY: SELFBOT-BY:MAX
-│• line/ti/p/~maxsett
+│• line.me/ti/p/~maxsett
 ╰───────────"""
     return socMedia
 
 def helpset():
     helpSet = """╭─「SELFBOT-BY:MAX」─
-│•      SELF
+│•                 SELF
 ╰───────────
 ╭───────────
 │• 01. คทเรา
@@ -727,14 +727,14 @@ def helpset():
 ╰───────────
 ╭───────────
 │• BY: SELFBOT-BY:MAX
-│• line/ti/p/~maxsett
+│• line.me/ti/p/~maxsett
 ╰───────────
 """
     return helpSet
 
 def helpsetting():
     helpSetting = """╭─「SELFBOT-BY:MAX」─
-│•      SETTING
+│•             SETTING
 ╰───────────
 ╭───────────
 │• 01. เปิดกัน/ปิดกัน
@@ -768,14 +768,14 @@ def helpsetting():
 ╰───────────
 ╭───────────
 │• BY: SELFBOT-BY:MAX
-│• line/ti/p/~maxsett
+│• line.me/ti/p/~maxsett
 ╰───────────
 """
     return helpSetting
 
 def helptexttospeech():
     helpTextToSpeech =   """╭─「SELFBOT-BY:MAX」─
-│•   TextToSpeech
+│•        TextToSpeech
 ╰───────────
 ╭───────────
 │• 01. af : แอฟริกัน
@@ -808,7 +808,7 @@ def helptexttospeech():
     
 def helplanguange():
     helpLanguange =    """╭─「SELFBOT-BY:MAX」─
-│•   Languange
+│•         Languange
 ╰───────────
 ╭───────────
 │• 01. af : แอฟริกัน
@@ -844,47 +844,47 @@ def helplanguange():
 │• 31. zu : ซูลู
 ├───────────
 │• BY: SELFBOT-BY:MAX
-│• line/ti/p/~maxsett
+│• line.me/ti/p/~maxsett
 ╰───────────
 """
     return helpLanguange
   
 def helpsiri():
     helpSiri = """╭─「SELFBOT-BY:MAX」─
-│•   Languange
+│•                  SIRI
 ╰───────────
 ╭───────────
-╠❂➣ แอด 
-╠❂➣ แอดรอง
-╠❂➣ ตั่งค่า
-╠❂➣ ตั้งแอดรอง
-╠❂➣ สลับ
-╠❂➣ ปลดแอด
-╠❂➣ ทวิทเต้อ
-╠❂➣ ย้ายตั๋ว
-╠❂➣ บอทกลับ
-╠❂➣ ชุดล็อคen
-╠❂➣ ชุดล็อคjp
-╠❂➣ เพิ่มดำ
-╠❂➣ แก้ดำ
-╠❂➣ ลบค้างเชิญ
-╠❂➣ เปลี่ยนอด
-╠❂➣ ปิดลิ้ง
-╠❂➣ เปิดลิ้ง
-╠❂➣ ตั้งอ่าน
-╠❂➣ คนแอบ
-╠❂➣ ปิดการเชิญ
-╠❂➣ เปิดเชิญ
-╠❂➣ ปิดพูด
-╠❂➣ เปิดพูด
-╠❂➣ รันติก
-╠❂➣ ล็อคแอด
-╠❂➣ ล็อคชื่อ
-╠❂➣ ล็อครูป
-╠❂➣ ล็อคเชิญ
+│• แอด 
+│• แอดรอง
+│• ตั่งค่า
+│• ตั้งแอดรอง
+│• สลับ
+│• ปลดแอด
+│• ทวิทเต้อ
+│• ย้ายตั๋ว
+│• บอทกลับ
+│• ชุดล็อคen
+│• ชุดล็อคjp
+│• เพิ่มดำ
+│• แก้ดำ
+│• ลบค้างเชิญ
+│• เปลี่ยนอด
+│• ปิดลิ้ง
+│• เปิดลิ้ง
+│• ตั้งอ่าน
+│• คนแอบ
+│• ปิดการเชิญ
+│• เปิดเชิญ
+│• ปิดพูด
+│• เปิดพูด
+│• รันติก
+│• ล็อคแอด
+│• ล็อคชื่อ
+│• ล็อครูป
+│• ล็อคเชิญ
 ├───────────
 │• BY: SELFBOT-BY:MAX
-│• line/ti/p/~maxsett
+│• line.me/ti/p/~maxsett
 ╰───────────
 """
     return helpSiri
