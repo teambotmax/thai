@@ -1668,16 +1668,16 @@ def lineBot(op):
                     cover = line.getProfileCoverURL(lineMID)
                    # line.sendImageWithURL(msg.to, cover)
                     #line.sendMessage(msg.to,str(settings["comment"]))
-                elif text.lower() == ".ตัวเรา":
+                elif text.lower() == ".คท":
                     line.sendMentionFooter(to, '「 User Self 」\n', sender, "https://line.me/ti/p/~samuri5.", "http://dl.profile.line-cdn.net/"+line.getContact(sender).pictureStatus, line.getContact(sender).displayName);line.sendMessage(to, line.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+line.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~samuri5.', 'type': 'mt', 'subText': "SELFBOT-BY:MAX", 'a-installUrl': 'https://line.me/ti/p/~samuri5.', 'a-installUrl': ' https://line.me/ti/p/~samuri5.', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~samuri5.', 'i-linkUri': 'https://line.me/ti/p/~samuri5.', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~samuri5'}, contentType=19)
                 elif text.lower() == ".ศรราม":
                     userid = "https://line.me/ti/p/~" + line.profile.userid
                     line.sendImageWithFooter(to, "http://dl.profile.line-cdn.net/"+line.getContact(sender).pictureStatus, str(userid), "http://dl.profile.line-cdn.net/"+line.getContact(sender).pictureStatus, line.getContact(sender).displayName)
                     line.sendMentionFooter(to, '「Me」\n', sender, str(userid), "http://dl.profile.line-cdn.net/"+line.getContact(sender).pictureStatus, line.getContact(sender).displayName)
                     line.sendMusic(to, line.getContact(sender).displayName, "http://dl.profile.line-cdn.net/"+line.getContact(sender).pictureStatus, str(userid), "SELFBOT-BY:MAX", line.getContact(sender).displayName)
-                elif text.lower() == '.คท':
-                    sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, lineMID)
+                elif text.lower() == '.แม็ค':
+                    #sendMessageWithMention(to, lineMID)
+                    #line.sendContact(to, lineMID)
                     line.sendMentionFooter(to, '「ผู้ควบคุมบอท」\n', sender, "https://line.me/ti/p/FMRCTkb0nl", "http://dl.profile.line-cdn.net/"+line.getContact(sender).pictureStatus, line.getContact(sender).displayName);line.sendMessage(to, line.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+line.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/FMRCTkb0nl', 'type': 'mt', 'subText': "BASBOTLINE", 'a-installUrl': 'https://line.me/ti/p/FMRCTkb0nl', 'a-installUrl': 'https://line.me/ti/p/FMRCTkb0nl', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/FMRCTkb0nl', 'i-linkUri': 'https://line.me/ti/p/FMRCTkb0nl', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/FMRCTkb0nl'}, contentType=19)
                 elif text.lower() == 'ค':
                     sendMessageWithMention(to, lineMID)
