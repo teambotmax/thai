@@ -850,12 +850,10 @@ def helplanguange():
     return helpLanguange
   
 def helpsiri():
-    helpSiri = """   ╭════════════════╮
-║─┅═✥ᴛᴇᴀᴍᵀᴴᴬᴵᴸᴬᴺᴰʙᴏᴛLɪɴᴇ✥═┅─
-║       ✪ 🅶🆁🅾🆄🅿 ✪
-║  ✪✨ชุดคำสั่งบอทสิริวี10✨✪
-╰════════════════╯
-╭════════════════╮
+    helpSiri = """╭─「SELFBOT-BY:MAX」─
+│•   Languange
+╰───────────
+╭───────────
 ╠❂➣ แอด 
 ╠❂➣ แอดรอง
 ╠❂➣ ตั่งค่า
@@ -886,7 +884,7 @@ def helpsiri():
 ╠❂➣ ล็อคเชิญ
 ├───────────
 │• BY: SELFBOT-BY:MAX
-│• line.me/ti/p/~maxsett
+│• line/ti/p/~maxsett
 ╰───────────
 """
     return helpSiri
