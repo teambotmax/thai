@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import  pafy, tweepy, wikipedia, time, timeit, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib.request, urllib.parse, urllib.error, urllib3.connection, urllib.parse,antolib,subprocess,unicodedata,GACSender
 _session = requests.session()
-from gtts import gTTS
+#from gtts import gTTS
 from googletrans import Translator
 import youtube_dl
 import requests
